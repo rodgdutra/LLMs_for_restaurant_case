@@ -1,8 +1,8 @@
-# Leveraging LLMs for Restaurant Solutions: The Burger Bliss Case Study
+# Leveraging LLMs for Restaurant Solutions: A Case of Study
 
 ## Introduction
 
-In the rapidly evolving landscape of artificial intelligence, Large Language Models (LLMs) have emerged as powerful tools for enhancing various sectors, including the restaurant industry. This project focuses on leveraging LLMs to provide innovative solutions tailored specifically for restaurants, using the mock-up case study of Burger Bliss—a fictional restaurant featuring an extensive menu. By harnessing the capabilities of LLMs, we aim to streamline restaurant operations, improve customer interactions, and enhance overall service delivery.
+In the rapidly evolving landscape of artificial intelligence, Large Language Models (LLMs) have emerged as powerful tools for enhancing various sectors, including the restaurant industry. This project focuses on leveraging LLMs to provide innovative solutions tailored specifically for restaurants, using the mock-up case study of "Burger Bliss" a fictional restaurant featuring a mock up menu. By harnessing the capabilities of LLMs, we aim to streamline restaurant operations, improve customer interactions, and enhance overall service delivery.
 
 The Burger Bliss menu serves as our primary data source, enabling us to explore various applications of LLMs in a restaurant context. We will demonstrate how LLMs can be utilized to respond to customer inquiries, provide menu information, and facilitate a more engaging dining experience through natural language interactions.
 
