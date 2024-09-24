@@ -10,7 +10,7 @@ The Burger Bliss menu serves as our primary data source, enabling us to explore 
 
 In this project, we will explore different methodologies for utilizing the Burger Bliss menu with LLMs:
 
-1. [**Retrieval-Augmented Generation (RAG) Workflow**](https://github.com/rodgdutra/LLMs_for_restaurant_case/blob/main/burger_bliss.pdf): We will implement a RAG workflow that allows for enhanced query responses based on relevant menu items. This approach combines information retrieval with language generation, ensuring that our LLM provides accurate and contextually relevant answers to customer inquiries.
+1. [**Retrieval-Augmented Generation (RAG) Workflow**](https://github.com/rodgdutra/LLMs_for_restaurant_case/blob/main/restaurant_rag.ipynb): We will implement a RAG workflow that allows for enhanced query responses based on relevant menu items. This approach combines information retrieval with language generation, ensuring that our LLM provides accurate and contextually relevant answers to customer inquiries.
 
 2. **Fine-Tuning Processes**: In addition to the RAG workflow, we will explore fine-tuning techniques such as Low-Rank Adaptation (LoRA). By applying these techniques, we can customize the LLM to better understand and respond to specific queries related to the Burger Bliss menu, ensuring that the generated responses are not only informative but also tailored to the unique offerings of the restaurant.
 
