@@ -58,6 +58,9 @@ User query: What is the burger options in the menu?
 
 Answer: Our Burger Bliss menu features the Classic Bliss Burger, the Big Cheesy, the Avocado Veggie Burger, the Turkey Burger, and the Chicken Caesar Burger. We also offer a variety of sides and beverages.<eos>
 ```
-The finetuning caveats, there are some prices that the model are getting wrong, this should be caused by the small number of examples in the training dataset, only `120`, even though, the model could learn some patters that werent in the dataset, such as `What is the burger options in the menu?`. 
+
+#### **Fine-Tuning Caveats**
+
+During the fine-tuning process, we observed that the model occasionally returns incorrect prices. This issue is likely due to the limited size of the training dataset, which contained only 120 examples. Despite this limitation, the model was still able to learn certain patterns that were not explicitly covered in the dataset, such as accurately responding to queries like "What are the burger options on the menu?"
 
 **TODO**: In the near future, we will integrate the RAG process with the fine-tuning approach, aiming to harness the strengths of both methods. This combination will allow us to create a close representation of a real-world use case, where every customer order matters. Through this integration, we can enhance the model's performance and ensure it delivers accurate and relevant information in a dynamic restaurant environment.
