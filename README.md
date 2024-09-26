@@ -2,9 +2,9 @@
 
 ## Introduction
 
-In the rapidly evolving landscape of artificial intelligence, Large Language Models (LLMs) have emerged as powerful tools for enhancing various sectors, including the restaurant industry. This project focuses on leveraging LLMs to provide innovative solutions tailored specifically for restaurants, using the mock-up case study of "Burger Bliss" a fictional restaurant featuring a mock up menu. By harnessing the capabilities of LLMs, we aim to streamline restaurant operations, improve customer interactions, and enhance overall service delivery.
+In the rapidly evolving landscape of artificial intelligence, Large Language Models (LLMs) have emerged as powerful tools for enhancing various sectors, including the restaurant industry. This project focuses on leveraging LLMs, specifically utilizing the Gemma 2B-It model from Google, to provide innovative solutions tailored to restaurants, using the mock-up case study of "Burger Bliss," a fictional restaurant with a detailed menu. By harnessing the advanced capabilities of Gemma 2B-It, we aim to demonstrate how this model can be applied effectively to a restaurant use case.
 
-The Burger Bliss menu serves as our primary data source, enabling us to explore various applications of LLMs in a restaurant context. We will demonstrate how LLMs can be utilized to respond to customer inquiries, provide menu information, and facilitate a more engaging dining experience through natural language interactions.
+The Burger Bliss menu serves as our primary data source, allowing us to explore various LLM applications within a restaurant context. We will show how LLMs, powered by Gemma 2B-It, can respond to customer inquiries, provide detailed menu information, and accurately address user queries by utilizing the menu as a core knowledge base.
 
 ## Project Overview
 
