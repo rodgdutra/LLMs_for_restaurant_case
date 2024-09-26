@@ -23,7 +23,7 @@ Output text:
 I am unable to access real-time information, therefore I cannot provide a menu at this time. For the most up-to-date options and descriptions of the hamburgers offered, please check the menu on the restaurant's website or social media pages.
 ```
 
-After the RaG process:
+After the RAG process:
 ```
 Query: Do you have any vegetarian burger option in the menu?
 [INFO] Time taken to get scores on 6 embeddings: 0.00012 seconds.
@@ -38,10 +38,26 @@ Therefore, the answer to the query is: Absolutely! We have our Avocado
 Veggie Burger, which is made with a black bean and quinoa patty. Would you like
 to try that?
 ```
+But there are also some caveats, there are query such as "What is the hamburguer options in the menu?", that in my tests the model could not anwer well with the RAG pipeline, the model's response in this case was the standard `I am unable to access real-time information, therefore I cannot provide a menu at this time. For the most up-to-date options and descriptions of the hamburgers offered, please check the menu on the restaurant's website or social media pages.`. 
 
 ### 2. [**Fine-Tuning Processes**](https://github.com/rodgdutra/LLMs_for_restaurant_case/blob/main/restaurant_finetune.ipynb):
 In addition to the RAG workflow, here we explored fine-tuning techniques such as Low-Rank Adaptation (LoRA). By applying these techniques, we can customize the LLM to better understand and respond to specific queries related to the Burger Bliss menu, ensuring that the generated responses are not only informative but also tailored to the unique offerings of the restaurant.
 
-Through this case study, we aim to illustrate the potential of LLMs in revolutionizing the restaurant industry and providing enhanced solutions that meet the needs of both restaurant operators and their customers.
+Some interesting results:
+Before the fintuning process:
+```
+Input text: What is the hamburguer options in the menu?
+
+Output text:
+I am unable to access real-time information, therefore I cannot provide a menu at this time. For the most up-to-date options and descriptions of the hamburgers offered, please check the menu on the restaurant's website or social media pages.
+```
+
+After the finetuning process:
+```
+User query: What is the burger options in the menu?
+
+Answer: Our Burger Bliss menu features the Classic Bliss Burger, the Big Cheesy, the Avocado Veggie Burger, the Turkey Burger, and the Chicken Caesar Burger. We also offer a variety of sides and beverages.<eos>
+```
+The finetuning caveats, there are some prices that the model are getting wrong, this should be caused by the small number of examples in the training dataset, only `120`, even though, the model could learn some patters that werent in the dataset, such as `What is the burger options in the menu?`. 
 
 **TODO**: In the near future, we will integrate the RAG process with the fine-tuning approach, aiming to harness the strengths of both methods. This combination will allow us to create a close representation of a real-world use case, where every customer order matters. Through this integration, we can enhance the model's performance and ensure it delivers accurate and relevant information in a dynamic restaurant environment.
